@@ -28,21 +28,15 @@ const Hero = () => {
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6 text-white ">
             Hi , i'm&nbsp;<span className="text-gray-200">Houssam Mnasfa</span>&nbsp;and i'm a {` `}
-            <span className="inline-block relative">
+            <span className="inline-block relative text-color-1 ">
               Front End{" "}
-              <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-1"
-                width={624}
-                height={28}
-                alt="Curve"
-              /> 
+              
             </span>&nbsp;Developer
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           I'm Houssam, a passionate 22-year-old front-end developer hailing from the vibrant city of Casablanca, Morocco. As a budding freelancer, I'm on a mission to craft engaging and user-friendly digital experiences. Whether it's designing sleek interfaces or coding dynamic websites.
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://mnasfahoussam.tiiny.site" white>
             Download Cv
           </Button>
         </div>

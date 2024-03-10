@@ -92,8 +92,8 @@ const PricingList = () => {
           <Typography className="font-normal text-[#a25bfe]">{item.date}</Typography>
         </CardFooter>
         <div className="flex gap-2 px-6 py-4 pt-6">
-          <a href="#" className="px-5 py-2 text-gray-50  bg-[#a25bfe] rounded">Demo</a>
-          <a href="#" className="px-5 py-2 border-2 border-[#a25bfe] rounded">Source Code</a>
+          <a href={item.demo} className="px-5 py-2 text-gray-50  bg-[#a25bfe] rounded">Demo</a>
+          <a href={item.source} className="px-5 py-2 border-2 border-[#a25bfe] rounded">Source Code</a>
           
         </div>
        

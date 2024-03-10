@@ -39,6 +39,7 @@ import {
   ecommerce,
   hostel,
   webspace,
+  
 } from "../assets";
 import { html , css , cs , tailwind, strapi ,bootstrap,sqlserver,github,vscode,javascript,react,nextjs } from "../assets";
 
@@ -215,8 +216,8 @@ export const pricing = [
     icon1: html,
     icon2: css,
     icon3: javascript,
-    demo: "",
-    source:"",
+    demo: "https://anajah-academy-2024.vercel.app/",
+    source:"https://github.com/MNASFA/AnajahAcademy_2024",
     banner: anajah,
   },
   {
@@ -227,8 +228,8 @@ export const pricing = [
     icon1: react,
     icon2: bootstrap,
     icon3: css,
-    demo: "",
-    source:"",
+    demo: "https://github.com/MNASFA/rumble-convertproject",
+    source:"https://mnasfa.github.io/rumble-convertproject/",
     banner: rumble,
   },
   {
@@ -239,8 +240,8 @@ export const pricing = [
     icon1: cs,
     icon2: sqlserver,
     icon3: github,
-    demo: "",
-    source:"",
+    demo: "#",
+    source:"https://github.com/MNASFA/hostel-project",
     banner: hostel,
   },
   {
@@ -251,8 +252,8 @@ export const pricing = [
     icon1: nextjs,
     icon2: tailwind,
     icon3: javascript,
-    demo: "",
-    source:"",
+    demo: "https://one-shop-1.vercel.app/",
+    source:"https://github.com/MNASFA/One",
     banner: oneshop,
   },
   {
@@ -263,8 +264,8 @@ export const pricing = [
     icon1: nextjs,
     icon2: tailwind,
     icon3: strapi,
-    demo: "",
-    source:"",
+    demo: "#",
+    source:"https://github.com/MNASFA/Ecommerce",
     banner: ecommerce,
   },
   {
@@ -275,8 +276,8 @@ export const pricing = [
     icon1: html,
     icon2: css,
     icon3: javascript,
-    demo: "",
-    source:"",
+    demo: "https://web-space-agency.vercel.app",
+    source:"https://github.com/MNASFA/web-space",
     banner: webspace,
   },
 ];
@@ -289,6 +290,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    bgcolor: "text-color-1",
   },
   {
     id: "1",
@@ -297,6 +299,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
+    bgcolor: "text-color-1",
     light: true,
   },
   {
@@ -306,6 +309,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
+    bgcolor: "text-color-1",
   },
   {
     id: "3",
@@ -314,6 +318,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
+    bgcolor: "text-color-2",
     light: true,
   },
   {
@@ -323,6 +328,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    bgcolor: "text-color-3",
   },
   {
     id: "5",
@@ -331,38 +337,39 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    bgcolor: "text-color-2",
   },
 ];
 
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "github",
+    iconUrl: github,
+    url: "https://github.com/MNASFA",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://twitter.com/home",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/houssa_mn/?igshid=NGVhN2U2NjQ0Yg%3D%3D",
   },
   {
     id: "3",
-    title: "Telegram",
+    title: "Linkedin",
     iconUrl: telegram,
-    url: "#",
+    url: "https://www.linkedin.com/in/houssam-mnasfa-80056b247/",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/houssammnasfa",
   },
 ];
