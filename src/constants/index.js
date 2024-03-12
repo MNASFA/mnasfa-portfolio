@@ -228,8 +228,8 @@ export const pricing = [
     icon1: react,
     icon2: bootstrap,
     icon3: css,
-    demo: "https://github.com/MNASFA/rumble-convertproject",
-    source:"https://mnasfa.github.io/rumble-convertproject/",
+    demo: "https://mnasfa.github.io/rumble-convertproject/",
+    source:"https://github.com/MNASFA/rumble-convertproject",
     banner: rumble,
   },
   {
