@@ -14,12 +14,12 @@ const Roadmap = () => (
      <div className="text-center">
        <div className="mb-5 text-[20px]"> You Can Contact me via email </div>
 
-        <strong className="text-[25px] font-bold uppercase text-[#a25bfe] ">mnasfa.houssam@gmail.com</strong>
+        <strong className="text-[18px] md:text-[25px] font-bold uppercase text-[#a25bfe] ">mnasfa.houssam@gmail.com</strong>
         <br />
 
        <div className="my-5 text-[20px]"> or via Whatssap</div>
 
-        <a href="https://wa.me/623581831" className="text-[25px] font-bold uppercase text-[#a25bfe] ">+212 623581831</a>
+        <a href="https://wa.me/623581831" className="text-[18px] md:text-[25px] font-bold uppercase text-[#a25bfe] ">+212 623581831</a>
      </div>
 
       
