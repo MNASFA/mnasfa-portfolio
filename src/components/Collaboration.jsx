@@ -25,7 +25,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Contact Now</Button>
+          <Button onclick="window.location.href='#contact';" >Contact Now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-2">
