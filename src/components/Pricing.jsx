@@ -7,7 +7,7 @@ import { LeftLine, RightLine } from "./design/Pricing";
 
 const Pricing = () => {
   return (
-    <Section className="overflow-hidden pt-0" id="pricing">
+    <Section className="overflow-hidden pt-0" id="works">
       <div className="container relative z-2">
        
 
