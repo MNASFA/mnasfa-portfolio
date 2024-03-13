@@ -36,7 +36,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           I'm Houssam, a passionate 22-year-old front-end developer hailing from the vibrant city of Casablanca, Morocco. As a budding freelancer, I'm on a mission to craft engaging and user-friendly digital experiences. Whether it's designing sleek interfaces or coding dynamic websites.
           </p>
-          <Button href="https://mnasfahoussam.tiiny.site" white>
+          <Button href="https://houssam.tiiny.site" white>
             Download Cv
           </Button>
         </div>
